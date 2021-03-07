@@ -1,4 +1,4 @@
-- name: Render PlantUML to wiki
+name: Render PlantUML to wiki
   uses: frederikheld/render-plantuml-to-wiki-action@v1.0.1
   with:
     WIKI_TOKEN: ${{ secrets.WIKI_TOKEN }}
